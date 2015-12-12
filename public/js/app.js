@@ -10,10 +10,9 @@ $scope.userName=userName;
 $http.post(' ',user)
       .then(function (data){
 
-                        }, 
+            }, 
 
-    function(data){
-      console.log("eroare");
-                  }
-           )
+    		function(data){
+      			console.log("eroare");
+            })
 }])
